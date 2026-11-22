@@ -1,0 +1,35 @@
+﻿# Carpetas generadas por Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Carpetas generadas dentro de los plugins
+Plugins/**/DerivedDataCache/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+
+# InstalaciÃ³n local de Meta XR Simulator
+meta_xr_simulator_windows_*/
+
+# Archivos locales de Visual Studio y Rider
+.vs/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Proyectos generados para Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
