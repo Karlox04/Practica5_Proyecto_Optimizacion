@@ -9,6 +9,11 @@ Plugins/**/DerivedDataCache/
 Plugins/**/Intermediate/
 Plugins/**/Saved/
 
+# Datos de iluminacion horneada (Lightmass): generables, se ignoran...
+*_BuiltData.uasset
+# ...excepto los del proyecto optimizado, que se conservan
+!Practica5_Proyecto_Optimizacion/**/*_BuiltData.uasset
+
 # InstalaciÃ³n local de Meta XR Simulator
 meta_xr_simulator_windows_*/
 
